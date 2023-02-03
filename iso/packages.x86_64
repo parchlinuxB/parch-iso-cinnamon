@@ -138,6 +138,11 @@ openssl-1.1
 openssl
 
 #Desktop
+cinnamon
+sddm
+xed
+xreader
+
 
 #systemutils
 btop
@@ -155,3 +160,10 @@ os-prober
 paru
 parch-branding
 parch-pacman
+appimagelauncher
+estedad-fonts
+fluent-gtk-theme
+hack-nerd-fonts
+sddm-theme-astronaut
+tela-circle-icon-theme-blue
+parch-config-cinnamon

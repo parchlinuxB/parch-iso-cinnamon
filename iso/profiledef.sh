@@ -3,7 +3,7 @@
 
 iso_name="Parchlinux Cinnamon"
 iso_label="PARCH_CINNAMON_$(date +%Y%m)"
-iso_publisher="Parch Linux <https://github.com/parch-os/>"
+iso_publisher="Parch Linux <https://github.com/parchlinux/>"
 iso_application="Parch Linux Cinnamon Live/Rescue CD"
 iso_version="$(date +%Y.%m.%d)"
 install_dir="arch"

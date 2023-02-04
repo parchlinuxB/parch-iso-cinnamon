@@ -1,17 +1,18 @@
 name: build&release
-
 on:
   push:
     tags:
       - "*"
-
-permissions:
-  contents: read
-
 jobs:
-  deploy:
+  build:
+    name: build and release
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
       - name: Parch build Action
-        uses: parchlinux/build-action:latest
+        uses: parchlinux/build-action@main
+        with:
+          gh_apikey: ${{ secrets.GITHUB_TOKEN }}
+          release_tag_name: ${{ github.ref_name }}
+          repo_name: ${{ github.event.repository.name }}

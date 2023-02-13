@@ -145,6 +145,7 @@ xreader
 engrampa
 unzip
 unrar
+gnome-terminal 
 
 #systemutils
 btop
@@ -156,7 +157,7 @@ octopi-git
 
 
 #parchlinuxstuff
-parch-calamares
+calamares
 parchlinux-cala-config
 os-prober
 paru

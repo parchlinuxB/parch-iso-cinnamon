@@ -1,20 +1,27 @@
-name: build&release
+# This workflow will build an Arch Linux ISO file with the commit on it
+name: build parchiso per release
 on:
-  push:
-    tags:
-      - "*"
+  release:
+    types:
+      - created
+
+env:
+  api_key: ${{ secrets.GITHUB_TOKEN }}
+  name: ${{ github.event.repository.name }}
+  release_name: ${{ github.ref_name }}
 jobs:
   build:
-    name: build and release
     runs-on: ubuntu-latest
     container:
+      image: archlinux:latest
       options: --privileged
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Parch build Action
-        uses: parchlinux/build-action@main
-        with:
-          gh_apikey: ${{ secrets.GITHUB_TOKEN }}
-          release_tag_name: ${{ github.ref_name }}
-          repo_name: ${{ github.event.repository.name }}
+      - uses: actions/checkout@v3
+      - name: Install Packages via Pacman
+        run: pacman -Sy; pacman --noconfirm -S git archiso python python-pip
+      - name: Install Python packages via pip
+        run: pip install -U pip pyGithub
+      - name: Build image
+        run: mkarchiso -v iso/
+      - name: Upload iso to the release
+        run: python tools/upload_assest.py

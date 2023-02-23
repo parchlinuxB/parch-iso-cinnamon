@@ -154,13 +154,14 @@ packagekit-qt5
 neofetch
 keepassxc
 octopi-git
-
+warpinator
 
 #parchlinuxstuff
 calamares
 parchlinux-cala-config
 os-prober
 paru
+parch-dorood
 parch-branding
 parch-pacman
 appimagelauncher

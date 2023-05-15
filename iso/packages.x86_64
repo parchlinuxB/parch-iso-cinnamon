@@ -153,17 +153,20 @@ packagekit-qt5
 neofetch-git
 keepassxc
 warpinator
+parch-firefox-config
+ttf-ms-fonts
+motrix-bin
 
 #parchlinuxstuff
 calamares
 parchlinux-cala-config
 os-prober
 paru
-parch-dorood
 parch-branding
 parch-pacman
 appimagelauncher
 estedad-fonts
+vazirmatn-fonts
 fluent-gtk-theme-git
 hack-nerd-fonts
 sddm-theme-astronaut

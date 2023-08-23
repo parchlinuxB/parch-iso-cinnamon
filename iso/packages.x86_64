@@ -153,9 +153,7 @@ packagekit-qt5
 neofetch-git
 keepassxc
 warpinator
-parch-firefox-config
-ttf-ms-fonts
-motrix-bin
+ttf-dejavu
 android-file-transfer
 gvfs-mtp
 broadcom-wl-dkms
@@ -168,7 +166,9 @@ os-prober
 paru
 parch-branding
 parch-pacman
-appimagelauncher
+parch-welcome
+python-pyqt6
+parch-grub
 estedad-fonts
 vazirmatn-fonts
 fluent-gtk-theme-git
@@ -177,3 +177,4 @@ sddm-theme-astronaut
 tela-circle-icon-theme-blue
 parch-config-cinnamon
 parch-os-wallpapers
+parch-gnome-backgrounds

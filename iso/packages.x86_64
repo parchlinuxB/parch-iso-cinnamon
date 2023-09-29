@@ -145,6 +145,9 @@ engrampa
 unzip
 unrar
 gnome-terminal
+gnome-screenshot
+gnome-calculator
+pamac-nosnap
 
 #systemutils
 btop
@@ -158,6 +161,10 @@ android-file-transfer
 gvfs-mtp
 broadcom-wl-dkms
 gparted
+blueman
+bluez
+bluez-utils
+pulseaudio-bluetooth
 
 #parchlinuxstuff
 calamares
@@ -167,14 +174,13 @@ paru
 parch-branding
 parch-pacman
 parch-welcome
-python-pyqt6
 parch-grub
 estedad-fonts
 vazirmatn-fonts
-fluent-gtk-theme-git
 hack-nerd-fonts
 sddm-theme-astronaut
-tela-circle-icon-theme-blue
-parch-config-cinnamon
+cinnamon-parch
 parch-os-wallpapers
 parch-gnome-backgrounds
+papirus-icon-theme
+arc-gtk-theme

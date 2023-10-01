@@ -138,6 +138,8 @@ openssl
 
 #Desktop
 cinnamon
+parch-mpv
+mpv
 sddm
 xed
 xreader
@@ -165,6 +167,7 @@ blueman
 bluez
 bluez-utils
 pulseaudio-bluetooth
+webapp-manager
 
 #parchlinuxstuff
 calamares
@@ -184,3 +187,5 @@ parch-os-wallpapers
 parch-gnome-backgrounds
 papirus-icon-theme
 arc-gtk-theme
+fira-code-font
+fira-code-mono

@@ -155,6 +155,7 @@ gnome-screenshot
 gnome-calculator
 pamac-nosnap
 
+
 #systemutils
 btop
 xdg-user-dirs
@@ -167,7 +168,7 @@ android-file-transfer
 gvfs-mtp
 broadcom-wl-dkms
 gparted
-blueman
+blueberry
 bluez
 bluez-utils
 webapp-manager
@@ -186,7 +187,7 @@ vazirmatn-fonts
 hack-nerd-fonts
 sddm-theme-astronaut
 cinnamon-parch
-parch-os-wallpapers
+parch-wallpapers
 parch-gnome-backgrounds
 papirus-icon-theme
 arc-gtk-theme

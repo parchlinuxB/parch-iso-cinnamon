@@ -7,6 +7,10 @@ base
 base-devel
 bind
 brltty
+pipewire
+pipewire-pulse
+wireplumber
+gst-plugin-pipewire
 #broadcom-wl
 btrfs-progs
 clonezilla
@@ -166,12 +170,11 @@ gparted
 blueman
 bluez
 bluez-utils
-pulseaudio-bluetooth
 webapp-manager
 
 #parchlinuxstuff
 calamares
-parchlinux-cala-config
+calamares-parch
 os-prober
 paru
 parch-branding

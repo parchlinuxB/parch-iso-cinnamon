@@ -147,22 +147,19 @@ mpv
 sddm
 xed
 xreader
-engrampa
+nemo-fileroller
 unzip
 unrar
 gnome-terminal
 gnome-screenshot
 gnome-calculator
-pamac-nosnap
 
 
 #systemutils
 btop
 xdg-user-dirs
-packagekit-qt5
 neofetch-git
 warpinator
-ttf-dejavu
 android-file-transfer
 gvfs-mtp
 broadcom-wl-dkms

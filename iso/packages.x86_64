@@ -181,7 +181,6 @@ parch-grub
 estedad-fonts
 vazirmatn-fonts
 hack-nerd-fonts
-sddm-theme-astronaut
 cinnamon-parch
 parch-wallpapers
 parch-gnome-backgrounds
@@ -189,3 +188,4 @@ papirus-icon-theme
 arc-gtk-theme
 fira-code-font
 fira-code-mono
+parch-sddm-theme

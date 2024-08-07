@@ -176,6 +176,7 @@ calamares-parch
 os-prober
 paru
 parch-branding
+parch-cinnamon-dotfiles
 parch-pacman
 parch-welcome
 parch-grub
